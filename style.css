@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    min-height: 100svh;
+    font-family: "Inter", sans-serif;
+    font-size: .875rem;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main.card {
+    width: 90%;
+    max-width: 350px;
+    height: auto;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: .5rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+div {
+    width: 100%;
+}
+
+.imageHolder {
+    margin-bottom: 1rem;
+}
+.imageHolder > img {
+    max-width: 30%;
+    border-radius: 50%;
+}
+
+.texts {
+    margin-bottom: 1.5rem;
+}
+
+.texts > h1 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: .6rem;
+}
+
+.texts > .firstText {
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+}
+
+.texts > .secondText {
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+
+.links > a {
+    display: block;
+    background-color: hsl(0, 0%, 20%);
+    margin-bottom: .9rem;
+    padding: .8rem 0;
+    border-radius: .4rem;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+.links > a:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: hsl(0, 0%, 12%);
+}
+
+.links > .last {
+    margin-bottom: 0;
+}
